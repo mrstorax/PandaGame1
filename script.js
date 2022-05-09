@@ -129,7 +129,6 @@ function handlelose () {
     timmer = 0
     if (Math.floor(score) > document.cookie) {
         document.cookie = Math.floor(score)
-
     }
 
     setTimeout(() => {
@@ -137,6 +136,7 @@ function handlelose () {
         document.addEventListener("mousedown", handleStart, {once: true})
         startScreenElem.classList.remove("hide")
     }, 100)
+    window.location.reload();
 }
 
 

@@ -41,7 +41,7 @@ export function getShroomRects(){
 function createShroom() {
     const shroom = document.createElement("img")
     shroom.dataset.shroom = true
-    shroom.src = "imgs/shroom.png"
+    shroom.src = "imgs/coin.png"
     shroom.classList.add("shroom")
     setCustomProperty(shroom, "--left", 100)
     worldElem.append(shroom)

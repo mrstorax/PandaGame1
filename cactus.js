@@ -11,7 +11,7 @@ nextCactusTime = CACTUS_INTERVAL_MIN
 document.querySelectorAll("[data-cactus]").forEach(cactus =>{
     cactus.remove()
 })
-}
+} 
 
 export function updateCatus(delta, speedScale) {
     document.querySelectorAll("[data-cactus]").forEach(cactus => {

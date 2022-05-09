@@ -33,15 +33,15 @@ body{
 
 .start-screen{
     position: absolute;
-    font-size: 5vmin;
+    font-size: 3vmin;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     border: black solid 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: 1;
 }
 
